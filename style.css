@@ -1,0 +1,197 @@
+body {
+  background-image: url(/assets/BG.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Roboto", sans-serif;
+  height: 115vh;
+  background-position: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7rem;
+  padding-top: 1.4rem;
+  color: white;
+}
+.logo {
+  font-size: 3rem;
+  color: #ff7200;
+  padding-left: 2rem;
+  font-family: "Prompt", sans-serif;
+  font-weight: bold;
+}
+
+.nav-option li {
+  display: inline;
+  margin: 0 4rem;
+  font-size: 1rem;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.nav-form input {
+  width: 20rem;
+  border: 1px solid ff7200 !important;
+  border-radius: 5px 0px 0px 5px;
+  outline: none;
+  background: transparent;
+  color: #fff;
+  border-color: #ff7200;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+.nav-form button {
+  width: 7rem;
+  padding: 1rem;
+  border: none;
+  background-color: #ff7200;
+  border-radius: 0px 5px 5px 0px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.nav-form:hover button {
+  background-color: #d16c24;
+}
+
+.nav-form {
+  display: flex;
+}
+.body {
+  display: flex;
+  justify-content: space-between;
+  padding: 7rem;
+  padding-right: 12rem;
+}
+.left-body {
+  width: 59%;
+  padding-top: 3rem;
+}
+.card {
+  background-color: #000000bd;
+  padding: 2rem;
+  width: 350px;
+  height: 550px;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+.header {
+  font-family: "Old Standard TT", serif;
+  width: 44%;
+}
+.para {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  line-height: 2rem;
+  font-size: 20px;
+  letter-spacing: 4px;
+}
+.btn-join button {
+  width: 17%;
+  padding: 14px;
+  border-radius: 12px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  background-color: #ff7200;
+  cursor: pointer;
+}
+.login-form-title h1 {
+  color: #ff7200;
+  background-color: #fff;
+  border-radius: 0.8rem;
+  width: 90%;
+  padding: 10px;
+}
+
+.form-credentials input,
+.form-credentials button {
+  width: 100%;
+  margin: 24px 0px;
+}
+.form-credentials input {
+  padding: 1rem;
+  background: transparent;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  outline: none;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+input::placeholder {
+  font-family: "Roboto";
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+.form-credentials label, .form-credentials a, .form-credentials span{
+  
+    line-height: 26px;
+    font-size: 20px;
+}
+.form-credentials span{
+  color: #fff;
+}
+
+
+.form-credentials button {
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  background-color: #ff7200;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.form-label {
+  display: block;
+  color: #fff;
+}
+.fa {
+  color: #fff;
+  font-size: 2rem !important;
+  margin: 1rem;
+  cursor: pointer;
+}
+.span-loginwith {
+  margin-top: 10px;
+  color: #fff;
+  display: block;
+}
+#home:hover {
+  color: #ff7200;
+  text-decoration: underline;
+}
+#about:hover {
+  color: #ff7200;
+  text-decoration: underline;
+}
+#service:hover {
+  color: #ff7200;
+  text-decoration: underline;
+}
+#design:hover {
+  color: #ff7200;
+  text-decoration: underline;
+}
+#contact:hover {
+  color: #ff7200;
+  text-decoration: underline;
+}
+#hdr1 {
+  font-size: 4rem;
+  color: #fff;
+}
+#hdr2 {
+  font-size: 5rem;
+  color: #ff7200;
+}
+#hdr3 {
+  font-size: 4rem;
+  color: #fff;
+}
+a#signup-link{
+  color: #ff7200;
+}
